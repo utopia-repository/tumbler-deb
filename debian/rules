@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+include /usr/share/hardening-includes/hardening.make
+
+CFLAGS=$(shell dpkg-buildflags --get CFLAGS)
+LDFLAGS=$(shell dpkg-buildflags --get LDFLAGS)
+LDFLAGS+=$(HARDENING_LDFLAGS) -Wl,-z,defs -Wl,--as-needed -Wl,-O1
+CFLAGS+=$(HARDENING_CFLAGS)
+
+export CFLAGS LDFLAGS
+
+override_dh_install:
+	dh_install --list-missing -X .la
+
+override_dh_makeshlibs:
+	dh_makeshlibs -p libtumbler-1-0 -X usr/lib/tumbler-1/plugins
+
+override_dh_strip:
+	dh_strip --dbg-package=libtumbler-1-dbg
+
+%:
+	dh $@

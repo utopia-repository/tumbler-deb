@@ -1,0 +1,11 @@
+tumbler (0.1.21-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Mon, 14 Feb 2011 23:46:05 +0100
+
+tumbler (0.1.6-1) experimental; urgency=low
+
+  * Initial release.                                            closes: #612110
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Mon, 07 Feb 2011 00:46:24 +0100
