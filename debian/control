@@ -7,7 +7,7 @@ Uploaders: Yves-Alexis Perez <corsac@debian.org>,
 Build-Depends: debhelper (>= 7.0.50~), intltool (>= 0.31), pkg-config,
  libglib2.0-dev, libgtk2.0-dev, libdbus-glib-1-dev, libpoppler-glib-dev,
  libffmpegthumbnailer-dev, libjpeg62-dev, hardening-includes
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://www.xfce.org/
 Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/tumbler
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/tumbler
