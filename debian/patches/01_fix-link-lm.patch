@@ -1,0 +1,56 @@
+Index: tumbler-0.1.21/plugins/font-thumbnailer/Makefile.am
+===================================================================
+--- tumbler-0.1.21.orig/plugins/font-thumbnailer/Makefile.am	2011-02-12 20:46:10.000000000 +0100
++++ tumbler-0.1.21/plugins/font-thumbnailer/Makefile.am	2011-09-05 21:30:57.016017667 +0200
+@@ -54,7 +54,8 @@
+ 	$(GDK_PIXBUF_LIBS)						\
+ 	$(GIO_LIBS)							\
+ 	$(GLIB_LIBS)							\
+-	$(FREETYPE_LIBS)
++	$(FREETYPE_LIBS)						\
++	-lm
+ 
+ tumbler_font_thumbnailer_la_DEPENDENCIES =				\
+ 	$(top_builddir)/tumbler/libtumbler-$(TUMBLER_VERSION_API).la
+Index: tumbler-0.1.21/plugins/pixbuf-thumbnailer/Makefile.am
+===================================================================
+--- tumbler-0.1.21.orig/plugins/pixbuf-thumbnailer/Makefile.am	2011-02-12 20:46:10.000000000 +0100
++++ tumbler-0.1.21/plugins/pixbuf-thumbnailer/Makefile.am	2011-09-05 21:30:57.016017667 +0200
+@@ -52,7 +52,8 @@
+ 	$(top_builddir)/tumbler/libtumbler-$(TUMBLER_VERSION_API).la	\
+ 	$(GDK_PIXBUF_LIBS)						\
+ 	$(GIO_LIBS)							\
+-	$(GLIB_LIBS)
++	$(GLIB_LIBS)							\
++	-lm
+ 
+ tumbler_pixbuf_thumbnailer_la_DEPENDENCIES =				\
+ 	$(top_builddir)/tumbler/libtumbler-$(TUMBLER_VERSION_API).la
+Index: tumbler-0.1.21/plugins/ffmpeg-thumbnailer/Makefile.am
+===================================================================
+--- tumbler-0.1.21.orig/plugins/ffmpeg-thumbnailer/Makefile.am	2011-02-12 20:46:10.000000000 +0100
++++ tumbler-0.1.21/plugins/ffmpeg-thumbnailer/Makefile.am	2011-09-05 21:30:57.016017667 +0200
+@@ -54,7 +54,8 @@
+ 	$(GDK_PIXBUF_LIBS)						\
+ 	$(GIO_LIBS)							\
+ 	$(GLIB_LIBS)							\
+-	$(FFMPEGTHUMBNAILER_LIBS)
++	$(FFMPEGTHUMBNAILER_LIBS)					\
++	-lm
+ 
+ tumbler_ffmpeg_thumbnailer_la_DEPENDENCIES =				\
+ 	$(top_builddir)/tumbler/libtumbler-$(TUMBLER_VERSION_API).la
+Index: tumbler-0.1.21/plugins/poppler-thumbnailer/Makefile.am
+===================================================================
+--- tumbler-0.1.21.orig/plugins/poppler-thumbnailer/Makefile.am	2011-09-05 21:31:05.528070185 +0200
++++ tumbler-0.1.21/plugins/poppler-thumbnailer/Makefile.am	2011-09-05 21:31:16.300136780 +0200
+@@ -54,7 +54,8 @@
+ 	$(GDK_PIXBUF_LIBS)						\
+ 	$(GIO_LIBS)							\
+ 	$(GLIB_LIBS)							\
+-	$(POPPLER_GLIB_LIBS)
++	$(POPPLER_GLIB_LIBS)						\
++	-lm
+ 
+ tumbler_poppler_thumbnailer_la_DEPENDENCIES =				\
+ 	$(top_builddir)/tumbler/libtumbler-$(TUMBLER_VERSION_API).la

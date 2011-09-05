@@ -1,3 +1,14 @@
+tumbler (0.1.21-3) UNRELEASED; urgency=low
+
+  * debian/patches:
+    - 01_fix-link-lm added, add explicit link on -lm.           closes: #640453
+  * debian/control:
+    - add build-dep on xfce4-dev-tools, libtool and gtk-doc-tools.
+  * debian/rules:
+    - run xdt-autogen before configure.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Mon, 05 Sep 2011 21:12:18 +0200
+
 tumbler (0.1.21-2) unstable; urgency=low
 
   * Upload to unstable.
