@@ -6,7 +6,7 @@ Uploaders: Yves-Alexis Perez <corsac@debian.org>,
  Lionel Le Folgoc <mrpouit@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), intltool (>= 0.31), pkg-config,
  libglib2.0-dev, libgtk2.0-dev, libdbus-glib-1-dev, libpoppler-glib-dev,
- libgstreamer0.10-dev, libjpeg62-dev, hardening-includes, xfce4-dev-tools,
+ libgstreamer0.10-dev, libjpeg-dev, hardening-includes, xfce4-dev-tools,
  libtool, gtk-doc-tools
 Standards-Version: 3.9.2
 Homepage: http://www.xfce.org/

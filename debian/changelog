@@ -6,7 +6,7 @@ tumbler (0.1.22-1) UNRELEASED; urgency=low
   * debian/rules: disable the ffmpeg thumbnailer by default, upstream
     recommends to use the new gstreamer one instead.
   * debian/control: replace libffmpegthumbnailer-dev b-dep with
-    libgstreamer0.10-dev.
+    libgstreamer0.10-dev, and switch to libjpeg-dev.
 
  -- Lionel Le Folgoc <mrpouit@gmail.com>  Wed, 21 Sep 2011 22:42:01 +0200
 
