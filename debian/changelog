@@ -7,6 +7,7 @@ tumbler (0.1.22-1) UNRELEASED; urgency=low
     recommends to use the new gstreamer one instead.
   * debian/control: replace libffmpegthumbnailer-dev b-dep with
     libgstreamer0.10-dev, and switch to libjpeg-dev.
+  * debian/patches/02_start-gst-pipeline.patch: added, fix thumbnail generation.
 
  -- Lionel Le Folgoc <mrpouit@gmail.com>  Wed, 21 Sep 2011 22:42:01 +0200
 
