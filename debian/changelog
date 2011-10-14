@@ -1,4 +1,4 @@
-tumbler (0.1.22-1) UNRELEASED; urgency=low
+tumbler (0.1.22-1) unstable; urgency=low
 
   [ Lionel Le Folgoc ]
   * New upstream release:
@@ -22,7 +22,7 @@ tumbler (0.1.22-1) UNRELEASED; urgency=low
   * debian/libtumbler-1-0.install, debian/libtumbler-1-dev.install,
     debian/tumbler.install: use multiarch paths.
 
- -- Lionel Le Folgoc <mrpouit@gmail.com>  Wed, 21 Sep 2011 22:42:01 +0200
+ -- Lionel Le Folgoc <mrpouit@gmail.com>  Fri, 14 Oct 2011 17:16:30 +0200
 
 tumbler (0.1.21-3) unstable; urgency=low
 
