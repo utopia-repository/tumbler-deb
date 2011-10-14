@@ -1,6 +1,6 @@
 usr/include
-usr/lib/libtumbler-1.a
-usr/lib/libtumbler-1.so
-usr/lib/pkgconfig
-usr/lib/tumbler-1/plugins/*.a
-usr/lib/tumbler-1/plugins/cache/*.a
+usr/lib/*/libtumbler-1.a
+usr/lib/*/libtumbler-1.so
+usr/lib/*/pkgconfig
+usr/lib/*/tumbler-1/plugins/*.a
+usr/lib/*/tumbler-1/plugins/cache/*.a

@@ -1,5 +1,6 @@
 tumbler (0.1.22-1) UNRELEASED; urgency=low
 
+  [ Lionel Le Folgoc ]
   * New upstream release:
     - add new gstreamer-based video thumbnailer.
   * debian/copyright: updated.
@@ -8,6 +9,18 @@ tumbler (0.1.22-1) UNRELEASED; urgency=low
   * debian/control: replace libffmpegthumbnailer-dev b-dep with
     libgstreamer0.10-dev, and switch to libjpeg-dev.            closes: #644968
   * debian/patches/02_start-gst-pipeline.patch: added, fix thumbnail generation.
+
+  [ Yves-Alexis Perez ]
+  * debian/rules:
+    - use hardening method from dpkg-dev 1.16.1 and debhelper 9.
+    - use multiarch dirs.
+  * debian/compat bumped to 9.
+  * debian/control:
+    - drop build-dep on hardening-includes
+    - add build-dep on dpkg-dev (>= 1.16.1)
+    - add Pre-Depends on misc:Pre-Depends
+  * debian/libtumbler-1-0.install, debian/libtumbler-1-dev.install,
+    debian/tumbler.install: use multiarch paths.
 
  -- Lionel Le Folgoc <mrpouit@gmail.com>  Wed, 21 Sep 2011 22:42:01 +0200
 

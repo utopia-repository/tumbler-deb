@@ -1,4 +1,4 @@
 usr/share/dbus-1/*
-usr/lib/tumbler-1/tumblerd
-usr/lib/tumbler-1/plugins/*.so
-usr/lib/tumbler-1/plugins/cache/*.so
+usr/lib/*/tumbler-1/tumblerd
+usr/lib/*/tumbler-1/plugins/*.so
+usr/lib/*/tumbler-1/plugins/cache/*.so
