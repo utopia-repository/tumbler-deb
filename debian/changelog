@@ -1,3 +1,19 @@
+tumbler (0.1.23-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * debian/control: build-depends on libgsf-1-dev and libopenrawgnome-dev to
+    enable the new thumbnailers.
+  * debian/copyright: fix EOLs.
+  * Add a new binary package, tumbler-plugins-extra, to ship plugins using
+    libraries not present in the default xfce desktop (openraw, gsf), and let
+    tumbler suggest it.
+  * debian/patches:
+    - 02_start-gst-pipeline.patch: dropped, applied upstream.
+    - 01_fix-link-lm.patch: refreshed for the new plugins.
+  * debian/libtumbler-1-dev.install: updated, .a files aren't created anymore.
+
+ -- Lionel Le Folgoc <mrpouit@gmail.com>  Sat, 10 Dec 2011 14:40:54 +0100
+
 tumbler (0.1.22-1) unstable; urgency=low
 
   [ Lionel Le Folgoc ]

@@ -1,3 +1,7 @@
+Description: link with -lm
+Bug: https://bugzilla.xfce.org/show_bug.cgi?id=8236
+Author: Yves-Alexis Perez <corsac@debian.org>
+Author: Lionel Le Folgoc <mrpouit@gmail.com>
 Index: tumbler-0.1.21/plugins/font-thumbnailer/Makefile.am
 ===================================================================
 --- tumbler-0.1.21.orig/plugins/font-thumbnailer/Makefile.am	2011-02-12 20:46:10.000000000 +0100
@@ -53,4 +57,28 @@ Index: tumbler-0.1.21/plugins/poppler-thumbnailer/Makefile.am
 +	-lm
  
  tumbler_poppler_thumbnailer_la_DEPENDENCIES =				\
+ 	$(top_builddir)/tumbler/libtumbler-$(TUMBLER_VERSION_API).la
+--- tumbler-0.1.23.orig/plugins/odf-thumbnailer/Makefile.am
++++ tumbler-0.1.23/plugins/odf-thumbnailer/Makefile.am
+@@ -54,7 +54,8 @@ tumbler_odf_thumbnailer_la_LIBADD =
+ 	$(GDK_PIXBUF_LIBS)						\
+ 	$(GIO_LIBS)							\
+ 	$(GLIB_LIBS)							\
+-	$(GSF_LIBS)
++	$(GSF_LIBS)							\
++	-lm
+ 
+ tumbler_odf_thumbnailer_la_DEPENDENCIES =				\
+ 	$(top_builddir)/tumbler/libtumbler-$(TUMBLER_VERSION_API).la
+--- tumbler-0.1.23.orig/plugins/raw-thumbnailer/Makefile.am
++++ tumbler-0.1.23/plugins/raw-thumbnailer/Makefile.am
+@@ -54,7 +54,8 @@ tumbler_raw_thumbnailer_la_LIBADD =
+ 	$(GDK_PIXBUF_LIBS)						\
+ 	$(GIO_LIBS)							\
+ 	$(GLIB_LIBS)							\
+-	$(LIBOPENRAW_GNOME_LIBS)
++	$(LIBOPENRAW_GNOME_LIBS)					\
++	-lm
+ 
+ tumbler_raw_thumbnailer_la_DEPENDENCIES =				\
  	$(top_builddir)/tumbler/libtumbler-$(TUMBLER_VERSION_API).la
