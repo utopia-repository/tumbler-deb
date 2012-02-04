@@ -1,6 +1,7 @@
 tumbler (0.1.23-1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fix crashes in the pixbuf thumbnailer.                        lp: #804921
   * debian/control: build-depends on libgsf-1-dev and libopenrawgnome-dev to
     enable the new thumbnailers.
   * debian/copyright: fix EOLs.
