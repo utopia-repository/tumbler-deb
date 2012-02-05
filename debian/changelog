@@ -1,4 +1,4 @@
-tumbler (0.1.23-1) UNRELEASED; urgency=low
+tumbler (0.1.23-1) unstable; urgency=low
 
   [ Lionel Le Folgoc ]
   * New upstream release:
@@ -19,7 +19,7 @@ tumbler (0.1.23-1) UNRELEASED; urgency=low
   * debian/control:
     - update debhelper build-dep to 9 now that it's released.
 
- -- Lionel Le Folgoc <mrpouit@gmail.com>  Sat, 10 Dec 2011 14:40:54 +0100
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 05 Feb 2012 21:03:17 +0100
 
 tumbler (0.1.22-1) unstable; urgency=low
 
