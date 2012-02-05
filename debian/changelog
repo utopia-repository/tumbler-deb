@@ -16,6 +16,8 @@ tumbler (0.1.23-1) UNRELEASED; urgency=low
 
   [ Yves-Alexis Perez ]
   * debian/watch updated for new tumbler location.
+  * debian/control:
+    - update debhelper build-dep to 9 now that it's released.
 
  -- Lionel Le Folgoc <mrpouit@gmail.com>  Sat, 10 Dec 2011 14:40:54 +0100
 
