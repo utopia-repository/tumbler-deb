@@ -27,7 +27,7 @@ Description: D-Bus thumbnailing service
 Package: tumbler-plugins-extra
 Section: xfce
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, tumbler (= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, tumbler (= ${binary:Version})
 Description: D-Bus thumbnailing service (additional plugins)
  Tumbler is a D-Bus service for applications to request thumbnails for various
  URI schemes and MIME types. It is an implementation of the thumbnail management
