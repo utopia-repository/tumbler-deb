@@ -1,5 +1,6 @@
 tumbler (0.1.23-1) UNRELEASED; urgency=low
 
+  [ Lionel Le Folgoc ]
   * New upstream release:
     - fix crashes in the pixbuf thumbnailer.                        lp: #804921
   * debian/control: build-depends on libgsf-1-dev and libopenrawgnome-dev to
@@ -12,6 +13,9 @@ tumbler (0.1.23-1) UNRELEASED; urgency=low
     - 02_start-gst-pipeline.patch: dropped, applied upstream.
     - 01_fix-link-lm.patch: refreshed for the new plugins.
   * debian/libtumbler-1-dev.install: updated, .a files aren't created anymore.
+
+  [ Yves-Alexis Perez ]
+  * debian/watch updated for new tumbler location.
 
  -- Lionel Le Folgoc <mrpouit@gmail.com>  Sat, 10 Dec 2011 14:40:54 +0100
 
