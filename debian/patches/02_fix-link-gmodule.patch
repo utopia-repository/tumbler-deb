@@ -1,0 +1,38 @@
+commit 52802adb3361e9d3202d4a921b8b440660878ee1
+Author: Lionel Le Folgoc <lionel@lefolgoc.net>
+Date:   Fri Feb 24 17:17:00 2012 +0000
+
+    Explicitly link against gmodule (bug #8466).
+
+Index: tumbler-0.1.23/configure.ac
+===================================================================
+--- tumbler-0.1.23.orig/configure.ac	2011-12-04 13:21:44.000000000 +0100
++++ tumbler-0.1.23/configure.ac	2012-03-28 11:02:52.088626087 +0200
+@@ -148,6 +148,7 @@
+ dnl ***********************************
+ PKG_CHECK_MODULES([GLIB], [glib-2.0 >= 2.16.0])
+ PKG_CHECK_MODULES([GIO], [gio-2.0 >= 2.16.0])
++PKG_CHECK_MODULES([GMODULE], [gmodule-2.0 >= 2.10.0])
+ PKG_CHECK_MODULES([GTHREAD], [gthread-2.0 >= 2.16.0])
+ PKG_CHECK_MODULES([DBUS], [dbus-1 >= 1.0.0])
+ PKG_CHECK_MODULES([DBUS_GLIB], [dbus-glib-1 >= 0.72])
+Index: tumbler-0.1.23/tumbler/Makefile.am
+===================================================================
+--- tumbler-0.1.23.orig/tumbler/Makefile.am	2011-12-04 13:21:45.000000000 +0100
++++ tumbler-0.1.23/tumbler/Makefile.am	2012-03-28 11:02:52.088626087 +0200
+@@ -82,6 +82,7 @@
+ 	$(GDK_PIXBUF_CFLAGS)						\
+ 	$(GIO_CFLAGS)							\
+ 	$(GLIB_CFLAGS)							\
++	$(GMODULE_CFLAGS)						\
+ 	$(GTHREAD_CFLAGS)						\
+ 	$(PLATFORM_CFLAGS)
+ 
+@@ -95,6 +96,7 @@
+ 	$(GDK_PIXBUF_LIBS)						\
+ 	$(GIO_LIBS)							\
+ 	$(GLIB_LIBS)							\
++	$(GMODULE_LIBS)							\
+ 	$(GTHREAD_LIBS)
+ 
+ EXTRA_DIST =								\
