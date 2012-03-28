@@ -1,11 +1,11 @@
-tumbler (0.1.23-2) UNRELEASED; urgency=low
+tumbler (0.1.23-2) unstable; urgency=low
 
   * debian/patches:
     - 02_fix-link-gmodule added, fix FTBFS with glib 2.32.      closes: #665667
   * debian/control:
     - update standards version to 3.9.3.
 
- -- Yves-Alexis Perez <corsac@debian.org>  Wed, 28 Mar 2012 07:38:23 +0200
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 28 Mar 2012 11:37:50 +0200
 
 tumbler (0.1.23-1) unstable; urgency=low
 
