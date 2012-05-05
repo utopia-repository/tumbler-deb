@@ -1,6 +1,11 @@
 tumbler (0.1.25-1) UNRELEASED; urgency=low
 
+  [ Lionel Le Folgoc ]
   * New upstream release.
+
+  [ Yves-Alexis Perez ]
+  * debian/rules:
+    - build with --parallel.
 
  -- Lionel Le Folgoc <mrpouit@gmail.com>  Mon, 30 Apr 2012 14:28:14 +0200
 

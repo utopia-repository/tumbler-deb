@@ -13,7 +13,7 @@ override_dh_strip:
 	dh_strip --dbg-package=libtumbler-1-dbg
 
 %:
-	dh $@
+	dh $@ --parallel
 
 override_dh_auto_configure:
 	mkdir -p m4
