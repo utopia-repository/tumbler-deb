@@ -6,6 +6,9 @@ tumbler (0.1.25-1) UNRELEASED; urgency=low
   [ Yves-Alexis Perez ]
   * debian/rules:
     - build with --parallel.
+    - stop running xdt-autogen before configure, not needed anymore.
+  * debian/control:
+    - drop xfce4-dev-tools, libtool and gtk-doc-tools from build-deps.
 
  -- Lionel Le Folgoc <mrpouit@gmail.com>  Mon, 30 Apr 2012 14:28:14 +0200
 
