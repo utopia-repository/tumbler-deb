@@ -16,4 +16,6 @@ override_dh_strip:
 	dh $@ --parallel
 
 override_dh_auto_configure:
+	mkdir -p m4
+	NOCONFIGURE=1 xdt-autogen
 	dh_auto_configure -- --disable-ffmpeg-thumbnailer

@@ -1,6 +1,15 @@
 tumbler (0.1.26-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * debian/control:
+    - update gstreamer build-dep to libgstreamer1.0-dev and
+      libgstreamer-plugins-base1.0-dev.
+    - add build-dep on xdt-autogen and dependencies.
+  * debian/patches:
+    - 0001-Fix-build-when-using-Wl-z-defs added, link against libgsttags and
+      libm.
+  * debian/rules:
+    - run xdt-autogen before configure.
 
  -- Yves-Alexis Perez <corsac@debian.org>  Mon, 10 Dec 2012 23:20:27 +0100
 
