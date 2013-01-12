@@ -14,10 +14,13 @@ tumbler (0.1.27-1) UNRELEASED; urgency=low
   * debian/control:
     - readd libffmpegthumbnailer-dev to b-deps to build the ffmpeg thumbnailer
       plugin.
-    - add libcurl4-gnutls-dev to b-deps to build the cover thumbnailer plugin.
+    - add libcurl4-gnutls-dev to b-deps to build the cover thumbnailer plugin
+    - update the long description of tumbler-plugins-extra to mention the new
+      plugins.
   * debian/tumbler-plugins-extra.install: ship the new plugins.
   * debian/tumbler-common.install: ship the new rc file.
   * debian/libtumbler-1-0.symbols: updated for the new symbols.
+  * debian/copyright: refreshed.
 
  -- Yves-Alexis Perez <corsac@debian.org>  Mon, 10 Dec 2012 23:20:27 +0100
 

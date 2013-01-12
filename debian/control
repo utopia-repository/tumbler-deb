@@ -34,9 +34,11 @@ Description: D-Bus thumbnailing service (additional plugins)
  URI schemes and MIME types. It is an implementation of the thumbnail management
  D-Bus specification described on http://live.gnome.org/ThumbnailerSpec.
  .
- This package adds support of the following file formats to tumbler:
-  - Raw Digital Camera Images
-  - OpenDocument Format.
+ This package adds the following plugins to tumbler:
+  - Cover thumbnailer for movies
+  - FFMpeg/Libav thumbnailer for video files
+  - OpenDocument Format thumbnailer
+  - Raw Digital Camera Images thumbnailer.
 
 Package: tumbler-common
 Section: xfce
