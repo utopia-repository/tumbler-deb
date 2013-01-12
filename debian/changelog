@@ -1,15 +1,23 @@
-tumbler (0.1.26-1) UNRELEASED; urgency=low
+tumbler (0.1.27-1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  [ Yves-Alexis Perez ]
+  * New upstream release (0.1.26).
   * debian/control:
     - update gstreamer build-dep to libgstreamer1.0-dev and
       libgstreamer-plugins-base1.0-dev.
-    - add build-dep on xdt-autogen and dependencies.
-  * debian/patches:
-    - 0001-Fix-build-when-using-Wl-z-defs added, link against libgsttags and
-      libm.
-  * debian/rules:
-    - run xdt-autogen before configure.
+
+  [ Lionel Le Folgoc ]
+  * New upstream release (0.1.27):
+    - reenable all plugins since there's now a priority mechanism to choose
+      the preferred ones.
+  * debian/rules: drop --disable-ffmpeg-thumbnailer from configure.
+  * debian/control:
+    - readd libffmpegthumbnailer-dev to b-deps to build the ffmpeg thumbnailer
+      plugin.
+    - add libcurl4-gnutls-dev to b-deps to build the cover thumbnailer plugin.
+  * debian/tumbler-plugins-extra.install: ship the new plugins.
+  * debian/tumbler-common.install: ship the new rc file.
+  * debian/libtumbler-1-0.symbols: updated for the new symbols.
 
  -- Yves-Alexis Perez <corsac@debian.org>  Mon, 10 Dec 2012 23:20:27 +0100
 
