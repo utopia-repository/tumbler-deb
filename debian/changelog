@@ -1,4 +1,4 @@
-tumbler (0.1.29-1) UNRELEASED; urgency=low
+tumbler (0.1.29-1) unstable; urgency=low
 
   [ Yves-Alexis Perez ]
   * New upstream release.
@@ -10,7 +10,7 @@ tumbler (0.1.29-1) UNRELEASED; urgency=low
 
   [ Lionel Le Folgoc ]
   * New upstream release (0.1.27):
-    - reenable all plugins since there's now a priority mechanism to choose
+    - re-enable all plugins since there's now a priority mechanism to choose
       the preferred ones.
   * debian/rules: drop --disable-ffmpeg-thumbnailer from configure.
   * debian/control:
@@ -24,7 +24,7 @@ tumbler (0.1.29-1) UNRELEASED; urgency=low
   * debian/libtumbler-1-0.symbols: updated for the new symbols.
   * debian/copyright: refreshed.
 
- -- Yves-Alexis Perez <corsac@debian.org>  Wed, 22 May 2013 00:24:15 +0200
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 22 May 2013 00:27:44 +0200
 
 tumbler (0.1.25-1) unstable; urgency=low
 
