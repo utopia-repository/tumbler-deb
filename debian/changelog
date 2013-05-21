@@ -5,6 +5,8 @@ tumbler (0.1.29-1) UNRELEASED; urgency=low
   * debian/control:
     - update gstreamer build-dep to libgstreamer1.0-dev and
       libgstreamer-plugins-base1.0-dev.
+  * debian/rules:
+    - enable all hardening flags.
 
   [ Lionel Le Folgoc ]
   * New upstream release (0.1.27):
