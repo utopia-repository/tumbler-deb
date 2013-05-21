@@ -1,7 +1,7 @@
-tumbler (0.1.27-1) UNRELEASED; urgency=low
+tumbler (0.1.29-1) UNRELEASED; urgency=low
 
   [ Yves-Alexis Perez ]
-  * New upstream release (0.1.26).
+  * New upstream release.
   * debian/control:
     - update gstreamer build-dep to libgstreamer1.0-dev and
       libgstreamer-plugins-base1.0-dev.
@@ -22,7 +22,7 @@ tumbler (0.1.27-1) UNRELEASED; urgency=low
   * debian/libtumbler-1-0.symbols: updated for the new symbols.
   * debian/copyright: refreshed.
 
- -- Yves-Alexis Perez <corsac@debian.org>  Mon, 10 Dec 2012 23:20:27 +0100
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 22 May 2013 00:24:15 +0200
 
 tumbler (0.1.25-1) unstable; urgency=low
 
