@@ -6,6 +6,11 @@ tumbler (0.1.29-2) UNRELEASED; urgency=low
   [ Jackson Doak ]
   * Bump standards-version to 3.9.4
 
+  [ Yves-Alexis Perez ]
+  * debian/patches:
+    - 01_fix-typo-tumbler-rc added, fix typo in /etc/xdg/tumbler/tumbler.rc
+      preventing video thumbnailing.                            closes: #723189
+
  -- Jackson Doak <noskcaj@ubuntu.com>  Sun, 18 Aug 2013 19:02:58 +1000
 
 tumbler (0.1.29-1) unstable; urgency=low
