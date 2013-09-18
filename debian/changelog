@@ -1,3 +1,9 @@
+tumbler (0.1.29-3) UNRELEASED; urgency=low
+
+  * Rebuild against libxfce4util, fix installation on sid.      closes: #723611
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 18 Sep 2013 07:38:40 +0200
+
 tumbler (0.1.29-2) unstable; urgency=low
 
   [ Evgeni Golov ]
