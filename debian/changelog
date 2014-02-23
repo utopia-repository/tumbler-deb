@@ -1,6 +1,7 @@
 tumbler (0.1.30-1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * debian/rules: Disable silent rules
 
  -- Jackson Doak <noskcaj@ubuntu.com>  Sun, 23 Feb 2014 11:22:29 +1100
 
