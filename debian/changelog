@@ -1,6 +1,10 @@
-tumbler (0.1.31-1) vivid; urgency=medium
+tumbler (0.1.31-1) UNRELEASED; urgency=medium
 
+  [ Jackson Doak ]
   * New upstream release
+
+  [ Mateusz Łukasik ]
+  * Bump standards-version to 3.9.6
 
  -- Jackson Doak <noskcaj@ubuntu.com>  Sun, 01 Mar 2015 06:17:18 +1100
 
