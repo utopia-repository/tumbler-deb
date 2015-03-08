@@ -1,4 +1,4 @@
-tumbler (0.1.31-1) UNRELEASED; urgency=medium
+tumbler (0.1.31-1) experimental; urgency=medium
 
   [ Jackson Doak ]
   * New upstream release
@@ -6,7 +6,7 @@ tumbler (0.1.31-1) UNRELEASED; urgency=medium
   [ Mateusz Łukasik ]
   * Bump standards-version to 3.9.6
 
- -- Jackson Doak <noskcaj@ubuntu.com>  Sun, 01 Mar 2015 06:17:18 +1100
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 08 Mar 2015 21:55:02 +0100
 
 tumbler (0.1.30-1) unstable; urgency=medium
 
