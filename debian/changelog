@@ -1,3 +1,9 @@
+tumbler (0.1.31-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 06 May 2015 18:12:00 +0200
+
 tumbler (0.1.31-1) experimental; urgency=medium
 
   [ Jackson Doak ]
