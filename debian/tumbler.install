@@ -1,5 +1,6 @@
 usr/share/dbus-1/*
 usr/lib/*/tumbler-1/tumblerd
+usr/lib/*/tumbler-1/plugins/tumbler-desktop-thumbnailer.so
 usr/lib/*/tumbler-1/plugins/tumbler-pixbuf-thumbnailer.so
 usr/lib/*/tumbler-1/plugins/tumbler-gst-thumbnailer.so
 usr/lib/*/tumbler-1/plugins/tumbler-poppler-thumbnailer.so

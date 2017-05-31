@@ -1,3 +1,13 @@
+tumbler (0.1.92-0utopia1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream development release.
+  * From Ubuntu version 0.1.92.1-0ubuntu1:
+    - d/tumbler.install: Install tumbler-desktop-thumbnailer.so plugin.
+  * Drop patch 01_fix-typo-tumbler-rc.patch, it was merged upstream.
+
+ -- James Lu <bitflip3@gmail.com>  Wed, 31 May 2017 07:34:11 -0700
+
 tumbler (0.1.31-2) unstable; urgency=medium
 
   * Upload to unstable.
